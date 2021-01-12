@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #1f0622;
+  background-color: lightblue;
 }
 .ball-container {
   position: absolute;
@@ -19,7 +19,7 @@ body {
   border-radius: 50%;
   left: calc(50% - 10px);
   top: calc(50% - 10px);
-  background-color: #b52cc7;
+  background-color: #2a4650;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), inset 0 -5px 5px rgba(0, 0, 0, 0.2);
   -webkit-animation: zoom-fade 1.2s ease-out infinite;
   animation: zoom-fade 1.2s ease-in-out infinite;
