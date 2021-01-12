@@ -21,8 +21,8 @@ body {
   top: calc(50% - 10px);
   background-color: #2a4650;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), inset 0 -5px 5px rgba(0, 0, 0, 0.2);
-  -webkit-animation: zoom-fade 1.2s ease-out infinite;
-  animation: zoom-fade 1.2s ease-in-out infinite;
+  -webkit-animation: zoom-fade 1.25s ease-out infinite;
+  animation: zoom-fade 1.25s ease-in-out infinite;
 }
 .ball:nth-child(2) {
   -webkit-animation-delay: 0.3s;
@@ -34,7 +34,7 @@ body {
     opacity: 1;
   }
   100% {
-    transform: scale(4);
+    transform: scale(4.5);
     opacity: 0;
   }
 }
@@ -44,7 +44,7 @@ body {
     opacity: 1;
   }
   100% {
-    transform: scale(4);
+    transform: scale(4.5);
     opacity: 0;
   }
 }
